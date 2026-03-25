@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        header,
+        footer {
+            background-color: bisque;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        
+        header h1 {
+            text-align: center;
+        }
+        
+        nav {
+            background-color: grey;
+            height: 50px;
+        }
+        
+        main {
+            background-color: rgb(97, 230, 8);
+        }
+        
+        aside {
+            background-color: white;
+            width: 20%;
+            float: left;
+            margin: 0px;
+            height: 300px;
+            padding: 10px;
+        }
+        
+        section,
+        article {
+            background-color: white;
+            width: 40%;
+            float: left;
+            margin: 0px;
+            height: auto;
+            padding: 10px;
+        }
+        
+        footer {
+            background-color: bisque;
+            height: 100px;
+            clear: both;
+            text-align: center;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #e81111;
+        }
+        
+        @media screen and (max-width:800px) {
+            aside,
+            section,
+            article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>This is a Header</h1>
+    </header>   
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <aside>
+            <h2>Aside</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+        </aside>
+        
+        <section>
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+        </section>
+        
+        <article>
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem deserunt, laudantium harum corporis maiores esse est provident autem odio quasi accusantium id quia debitis temporibus doloremque cum sunt expedita?</p>
+        </article>
+        
+    </main>
+    
+    <footer>
+        <h2>This is a Footer</h2>
+    </footer>
+
+
+</body>
+</html>
